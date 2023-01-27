@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Mini Portfolio Website</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Folio<b>.</b></div>
+            <ul class="navitem">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">blog</a></li>
+            </ul>
+                <div class="links">
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm<span class="multitext"> </span></h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="btn">
+                    <button>Download SV</button>
+                    <button>Hire me</button>
+                </div>
+            </div>
+
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="img/splash.png" id="splash">
+                    <img src="img/me.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multitext",{
+            strings : ["Coder", "Youtuber","Designer"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500,
+        })
+    </script>
+</body>
+</html>
